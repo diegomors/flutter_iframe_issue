@@ -6,7 +6,11 @@ This project describe a Flutter issue on Safari mobile when the app is embedded 
 
 ### 1. Run the Flutter App on port 5000 in release mode
 
+`$ cd flutter_app`
+
 `$ flutter run -d chrome --web-port 5000 --release`
+
+    - The flutter_app is a default Flutter application without any changes.
 
 ### 2. Use [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb) to provide the Host Website on [http://127.0.0.1:8887](http://127.0.0.1:8887)
 
